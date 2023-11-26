@@ -29,7 +29,7 @@
             </select> 
     </div>
         <div class="input" >
-        <input type="submit" value="Submit">
+        <input class="inputt"  type="submit" value="Submit">
         </div>
         
         

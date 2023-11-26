@@ -54,7 +54,6 @@
     border-radius: 30px;
     width: 150px;
     height: 35px;
-  
     cursor: pointer;
     color: #021c27;
 }
@@ -117,7 +116,7 @@ tr,td{
 }
 .transBtn{
     
-    background-color: #e85412;
+    background-color: #050404;
     color: white;
     height: fit-content;
     width: 120px;
@@ -136,10 +135,9 @@ tr,td{
     display: flex;
     justify-content: center;
     align-items: center;
-   
     padding: 10px 10px;
 }
-.input input{
+.inputt{
     background-color: #e85412;
     color: white;
     border: none;
@@ -151,33 +149,6 @@ tr,td{
     border-radius: 20px;
 
 }
-.home{
-    display: flex;
-}
-.admin img{
-    width: 48%;
-    height: auto;
-    border-radius: 50%;
-}
-.admin{
-    width:20%;
-    height: 100vh;
-    background-color: #013348;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 130px;
 
-}
-.admin p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center ;  
-    width:306px;
-    cursor: pointer;
-    color: #ffffff;
-    tex
-}
 
 

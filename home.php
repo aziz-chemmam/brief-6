@@ -9,16 +9,16 @@
 <body>
     <div class="logo">
         <img src="logo.png" alt="">
-    </div>
+     </div>
    
-    <div class="body">
+     <div class="body">
         *** <div class="titre">
-             <h1>Welcom to your bank</h1>
+              <h1>Welcom to your bank</h1>
          </div><br>
-        <div class="input"> 
+         <div > 
             <label for="user">entrer votre nom :</label> <br> 
             <input type="text"><br><br
-        </div>
+      </div>    
         <div>
         <label for="password"> mot de passe :</label> <br>
             <input type="password">
