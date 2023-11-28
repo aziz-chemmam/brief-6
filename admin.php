@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    
     <div class="flex gap-[500px] ">
             <div class=" w-[20%] h-[100vh] bg-cyan-950 flex flex-col items-center justify-center gap-24 ">
             <img class="w-[48%] h-auto rounded-[50%] " src="logo.png" >
