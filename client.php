@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
-
+     <!-- $_GET{'id'} -->
     <title>Document</title>
 </head>
 <body class="oferflow-y-hidden">
@@ -31,7 +31,7 @@ $sql= "CREATE TABLE if not exists  client(
     }
           //insert
 
-          if (isset($_POST["submit"])) {
+          if (isset($_POST["submit"])){ 
             $nom = isset($_POST['nom']) ? htmlspecialchars(strtolower(trim($_POST['nom']))) : '';
             $prenom = isset($_POST['prenom']) ? htmlspecialchars(strtolower(trim($_POST['prenom']))) : '';
             $dateDeNaissance = isset($_POST['dateDeNaissance']) ? htmlspecialchars(strtolower(trim($_POST['dateDeNaissance']))) : '';
