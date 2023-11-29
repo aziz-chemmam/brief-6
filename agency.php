@@ -11,6 +11,10 @@
 </head>
 <body>
     <?php
+        include("index.php")    
+
+    ?>
+    <?php
     include("navbar.php");
     ?>
     <div class="absolute flex flex-col justify-center top-0 ml-96 ">
@@ -44,7 +48,7 @@
         <label for="nom"></label>
         <input class="px-5 py-2 rounded text-gray-300 bg-gray-700" type="text" placeholder="ADRESSE">
         <div>
-        <a href="agency.php"><button class="px-8 py-2 rounded text-white bg-orange-700 " type="submit">Ajouter</button></a>
+        <button class="px-8 py-2 rounded text-white bg-orange-700 " type="submit">Ajouter</button>
     </div>
     </div>
 

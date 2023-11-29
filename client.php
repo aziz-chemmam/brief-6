@@ -13,7 +13,7 @@
     include("index.php");
    
 $sql= "CREATE TABLE if not exists  client(
-  id int  AUTO_INCREMENT PRIMARY KEY,
+  id int(10)  AUTO_INCREMENT PRIMARY KEY,
   nom VARCHAR(30) NOT NULL,
   prenom VARCHAR(255) NOT NULL,
   adresse VARCHAR(255) NOT NULL,
@@ -74,6 +74,8 @@ $sql= "CREATE TABLE if not exists  client(
                     <th>PASSWORD</th>
                     <th>USERNAME</th>
                     <th>GENRE</th>
+                    <th>ACTION</th>
+
                 </tr>
             </thead>
             <tbody>
@@ -149,7 +151,7 @@ if(!$conn){
                     <label for="nom"></label>
                     <input class="px-20 py-2 rounded text-gray-300 bg-gray-700" type="text" name="genre" placeholder="genre">
                     <div>
-                    <a href="account.php"><button class="px-8 py-2 rounded text-white bg-orange-700 " name="submit" type="submit">Ajouter</button></a>
+                    <button class="px-8 py-2 rounded text-white bg-orange-700 " name="submit" type="submit">Ajouter</button>
                 </div>
             </form>
     </div>

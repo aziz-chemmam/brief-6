@@ -42,7 +42,7 @@
         <label for="nom"></label>
         <input class="px-5 py-2 rounded text-gray-300 bg-gray-700" type="text" placeholder="ID DE CLIENT">
         <div>
-        <a href="account.php"><button class="px-8 py-2 rounded text-white bg-orange-700 " type="submit">Ajouter</button></a>
+        <button class="px-8 py-2 rounded text-white bg-orange-700 " type="submit">Ajouter</button>
     </div>
     </div>
     </div>

@@ -9,6 +9,23 @@
     <title>Document</title>
 </head>
 <body>
+<?php
+    include("index.php");
+
+    $sql= "CREATE TABLE IF NOT EXISTS account(
+        id int(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        rib VARCHAR(255) NOT NULL,
+        balance VARCHAR(255) NOT NULL,
+        devis VARCHAR(255) NOT NULL,
+        
+        
+    )";
+
+
+
+
+    ?>
+
     <?php
     include("navbar.php");
     ?>

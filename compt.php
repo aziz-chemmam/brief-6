@@ -24,14 +24,16 @@
         
         </div>
         <table>
+            <thead>
             <tr>
-                <td>ID</td>  
-                <td>nom</td>
-                <td>prenom</td>
-                <td>date de naissance</td>
-                <td>nationalité</td>
+                <th>ID</th>  
+                <th>nom</th>
+                <th>prenom</th>
+                <th>date de naissance</th>
+                <th>nationalité</th>
 
-            </tr>
+        </tr>
+        </thead>
         </table>
         
     </div>
