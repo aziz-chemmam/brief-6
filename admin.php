@@ -30,7 +30,7 @@
                 </aside>  
                 
             </div>
-            <div class=" flex flex-col gap-[200px]  ">
+            <div class=" flex flex-col gap-[200px]   ">
                 <img class=" w-[30%] h-fit rounded-3xl  " src="WhatsApp Image 2023-10-03 à 11.50.20_25e81930.jpg" alt="">
                <DIV>
                <h2>NOM: CHEMMAM</h2><br>

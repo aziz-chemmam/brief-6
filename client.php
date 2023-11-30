@@ -13,7 +13,7 @@
     include("index.php");
    
 $sql= "CREATE TABLE if not exists  client(
-  id int(10)  AUTO_INCREMENT PRIMARY KEY,
+  id INT(10)   AUTO_INCREMENT PRIMARY KEY,
   nom VARCHAR(30) NOT NULL,
   prenom VARCHAR(255) NOT NULL,
   adresse VARCHAR(255) NOT NULL,
@@ -64,17 +64,16 @@ $sql= "CREATE TABLE if not exists  client(
     <table class="w-[1200px]" >
          <thead>
                 <tr>
-                    <th>ID</th>  
-                    <th>nom</th>
-                    <th>prenom</th>
-                    <th>adress</th>
-                    <th>DATE DE NAISSANCE</th>
-                    <th>NATIONALITE</th>
-                    <th>EMAIL</th>
-                    <th>PASSWORD</th>
-                    <th>USERNAME</th>
-                    <th>GENRE</th>
-                    <th>ACTION</th>
+                    <td>ID</td>  
+                    <td>nom</td>
+                    <td>prenom</td>
+                    <td> DATE DE NAISSANCE </td>
+                    <td>NATIONALITE</td>
+                    <td>EMAIL</td>
+                    <td>USERNAME</td>
+                    <td>ADRESSE</td>
+                    <td>GENRE</td>
+                    <td>ACTION</td>
 
                 </tr>
             </thead>
@@ -99,11 +98,11 @@ if(!$conn){
                       <td>{$row['email']}</td>
                       <td>{$row['username']}</td>
                       <td>{$row['adresse']}</td>
-                      <td>{$row['pw']}</td>
+                      
                     
                       <td>
                           <a href='{$row["id"]}' class='font-bold text-white h-8 rounded cursor-pointer px-3 bg-gray-700 shadow-md transition ease-out duration-500 border-gray-700 '>EDIT</a>
-                          <a href='delet_client.php?id={$row["id"]}' class='font-bold text-white h-8 rounded  cursor-pointer px-2 bg-red-700 shadow-md transition ease-out duration-500 border-red-700 '>DELET</a>
+                          <a href='clientDel.php?id={$row["id"]}' class='font-bold text-white h-8 rounded  cursor-pointer px-2 bg-red-700 shadow-md transition ease-out duration-500 border-red-700 '>DELET</a>
                       </td>
 
               </tr>";

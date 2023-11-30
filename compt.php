@@ -26,11 +26,11 @@
         <table>
             <thead>
             <tr>
-                <th>ID</th>  
-                <th>nom</th>
-                <th>prenom</th>
-                <th>date de naissance</th>
-                <th>nationalité</th>
+                <td>ID</td>  
+                <td>NOM</td>
+                <td>PRENOM</td>
+                <td>DATE DE NAISSANCE</td>
+                <td>NATIONALITE</td>
 
         </tr>
         </thead>
