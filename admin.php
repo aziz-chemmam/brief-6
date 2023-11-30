@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <div class="flex gap-[500px] ">
+    <div class="flex gap-[350px] bg-[url('sliders-desktop-6_10.jpg')] bg-cover  h-screen ">
             <div class=" w-[20%] h-[100vh] bg-cyan-950 flex flex-col items-center justify-center gap-24 ">
             <img class="w-[48%] h-auto rounded-[50%] " src="logo.png" >
             
@@ -30,14 +30,21 @@
                 </aside>  
                 
             </div>
-            <div class=" flex flex-col gap-[200px]   ">
-                <img class=" w-[30%] h-fit rounded-3xl  " src="WhatsApp Image 2023-10-03 à 11.50.20_25e81930.jpg" alt="">
-               <DIV>
-               <h2>NOM: CHEMMAM</h2><br>
-                <h2>PRENOM: ABDELAZIZ</h2><br>
-                <h2>ROLL: ADMIN</h2><br>
-                <h2></h2>
-               </DIV>
+            <div class=" flex flex-col gap-[100px]   ">
+                
+                <img class=" w-[25%] h-fit rounded-3xl ml-32  " src="WhatsApp Image 2023-10-03 à 11.50.20_25e81930.jpg" alt="">
+                
+               <div class="flex flex flex-col 	gap-16  ">
+                    <div class="text-9xl gap-24 text-orange-600 ">
+                        <h1 class="">WELCOM</h1>
+                    </div>
+                     <div class="text-white ml-3 text-2xl">
+                        <h2>NOM: CHEMMAM</h2><br>
+                        <h2>PRENOM: ABDELAZIZ</h2><br>
+                        <h2>ROLL: ADMIN</h2><br>
+                
+                     </div>
+              </div>
         </div>
     </div>
 

@@ -12,6 +12,7 @@
 <body>
     <div class="page">
         <div class="user">
+        <img src="logo.png" alt="">
         <img src="my pic.jpg" alt="">
         
         <div>
